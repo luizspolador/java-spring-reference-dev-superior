@@ -1,10 +1,10 @@
-package br.com.spolador.DSLearn;
+package com.devsuperior.dslearnbds;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DsLearnApplicationTests {
+class DslearnbdsApplicationTests {
 
 	@Test
 	void contextLoads() {
