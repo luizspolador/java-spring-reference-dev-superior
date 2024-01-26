@@ -8,8 +8,8 @@ import com.devsuperior.dslearnbds.entities.User;
 import jakarta.persistence.Embeddable;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
-
-@Embeddable
+//CLASSE AUXILIAR QUE REPRESENTA UMA CHAVE COMPOSTA
+@Embeddable // para classes que apresentam atributos de outras classes
 public class EnrollmentPK {
 
 	@ManyToOne
