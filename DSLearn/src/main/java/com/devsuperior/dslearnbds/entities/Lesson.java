@@ -21,7 +21,7 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "tb_lesson")
-@Inheritance(strategy = InheritanceType.JOINED)
+@Inheritance(strategy = InheritanceType.JOINED) // para herança em db relacional. JOINED -> cria 3 tabelas - Lesson, Task e Content
 public abstract class Lesson {
 
 	@Id
