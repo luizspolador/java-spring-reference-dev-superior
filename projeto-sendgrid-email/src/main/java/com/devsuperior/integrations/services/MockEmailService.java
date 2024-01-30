@@ -9,6 +9,7 @@ public class MockEmailService implements EmailService {
 
 	private Logger LOG = LoggerFactory.getLogger(MockEmailService.class);
 
+	@Override
 	public void sendPlainTextEmail(EmailDTO dto) {
 		LOG.info("Email sent to: " + dto.getTo());
 	}
