@@ -23,6 +23,7 @@ public class SendGridEmailService implements EmailService {
 	@Autowired
 	private SendGrid sendGrid;
 
+	@Override
 	public void sendPlainTextEmail(EmailDTO dto) {
 
 		Email from = new Email(dto.getFromEmail(), dto.getFromName());
